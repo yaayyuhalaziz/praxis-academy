@@ -1,0 +1,7 @@
+Abduls-MacBook-Air:praxis-academy abdulaziz$ cd kemampuan-dasar/kemampuan-dasar-1/latihan/
+Abduls-MacBook-Air:latihan abdulaziz$ ls
+cmdline.txt	shellscripts
+Abduls-MacBook-Air:latihan abdulaziz$ open cmdline.txt
+Abduls-MacBook-Air:latihan abdulaziz$ cp cmdline.txt newcmdline.txt
+Abduls-MacBook-Air:latihan abdulaziz$ mv cmdline.txt ~/Documents/cmdline.txt
+Abduls-MacBook-Air:latihan abdulaziz$ mv ~/Documents/newcmdline.txt ~/Documents/newcmdline.txt
