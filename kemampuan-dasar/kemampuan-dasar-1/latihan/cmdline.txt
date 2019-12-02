@@ -72,3 +72,52 @@ Abduls-MacBook-Air:latihan abdulaziz$ mdfind -onlyin ~/Documents/almaaidah/ ajwa
 /Users/abdulaziz/Documents/almaaidah/Kurma Ajwa Madinah.zip
 
 Abduls-MacBook-Air:latihan abdulaziz$ screencapture -T 10 -P image.png
+
+Abduls-MacBook-Air:praxis-academy abdulaziz$ sudo launchctl load -w /System/Library/LaunchDaemons/org.apache.httpd.plist
+Abduls-MacBook-Air:praxis-academy abdulaziz$ sudo launchctl unload /System/Library/LaunchDaemons/org.apache.httpd.plist
+/System/Library/LaunchDaemons/org.apache.httpd.plist: Operation now in progress
+
+Abduls-MacBook-Air:latihan abdulaziz$ say "Never trust a computer you can't lift."
+
+Abduls-MacBook-Air:praxis-academy abdulaziz$ diskutil list
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *121.3 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk1         121.1 GB   disk0s2
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +121.1 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume Macintosh HD - Data     101.8 GB   disk1s1
+   2:                APFS Volume Preboot                 81.7 MB    disk1s2
+   3:                APFS Volume Recovery                528.5 MB   disk1s3
+   4:                APFS Volume VM                      3.2 GB     disk1s4
+   5:                APFS Volume Macintosh HD            11.4 GB    disk1s5
+
+Abduls-MacBook-Air:praxis-academy abdulaziz$ brew install archey
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+dune                                 krew                                 pympress
+==> Updated Formulae
+basex           eslint          helmfile        libqalculate    rargs           swiftformat     wiki
+bluepill        faas-cli        imagemagick     mockserver      re2             tintin
+cash-cli        ghq             imagemagick@6   mutt            singular        tmux
+checkstyle      gitleaks        jupyterlab      nushell         sops            verilator
+elm             haxe            kyma-cli        qalculate-gtk   starship        vips
+==> Deleted Formulae
+shocco
+
+==> Downloading https://github.com/obihann/archey-osx/archive/1.6.0.tar.gz
+==> Downloading from https://codeload.github.com/obihann/archey-osx/tar.gz/1.6.0
+##O#- #                                                                       
+==> Downloading https://github.com/obihann/archey-osx/commit/cd125547d0936f066b64616553269bf647348e53.diff?ful
+##O#- #                                                                       
+==> Patching
+==> Applying cd125547d0936f066b64616553269bf647348e53.diff
+patching file bin/archey
+Hunk #1 succeeded at 80 (offset -11 lines).
+🍺  /usr/local/Cellar/archey/1.6.0_1: 6 files, 33KB, built in 10 seconds
