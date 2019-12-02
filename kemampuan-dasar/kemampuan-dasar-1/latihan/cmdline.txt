@@ -5,3 +5,70 @@ Abduls-MacBook-Air:latihan abdulaziz$ open cmdline.txt
 Abduls-MacBook-Air:latihan abdulaziz$ cp cmdline.txt newcmdline.txt
 Abduls-MacBook-Air:latihan abdulaziz$ mv cmdline.txt ~/Documents/cmdline.txt
 Abduls-MacBook-Air:latihan abdulaziz$ mv ~/Documents/newcmdline.txt ~/Documents/newcmdline.txt
+Abduls-MacBook-Air:latihan abdulaziz$ mkdir direktori1 direktori2 direktori3
+Abduls-MacBook-Air:latihan abdulaziz$ rmdir direktori1
+Abduls-MacBook-Air:latihan abdulaziz$ rm -R direktori2
+Abduls-MacBook-Air:latihan abdulaziz$ sudo rmdir direktori3
+Abduls-MacBook-Air:latihan abdulaziz$ top
+Processes: 394 total, 2 running, 392 sleeping, 1908 threads                                          11:29:16
+Load Avg: 1.42, 1.54, 1.81  CPU usage: 3.81% user, 3.34% sys, 92.84% idle
+SharedLibs: 262M resident, 47M data, 29M linkedit.
+MemRegions: 96601 total, 2477M resident, 117M private, 905M shared.
+PhysMem: 6785M used (1491M wired), 1405M unused.
+VM: 1742G vsize, 1878M framework vsize, 2318933(0) swapins, 2432702(0) swapouts.
+Networks: packets: 480277/515M in, 418178/49M out. Disks: 1404421/25G read, 570976/14G written.
+
+PID   COMMAND      %CPU TIME     #TH   #WQ  #PORT MEM    PURG   CMPRS  PGRP PPID STATE    BOOSTS
+2974  Google Chrom 7.3  04:58.29 13    1    137   44M+   0B     21M    480  480  sleeping *0[5]
+0     kernel_task  6.6  14:29.76 187/4 0    0     107M   0B     0B     0    0    running   0[0]
+490   Terminal     4.6  00:45.68 9     2    283   34M-   4448K  4924K  490  1    sleeping *0[1048]
+3872  top          4.1  00:00.69 1/1   0    25    5008K  0B     0B     3872 557  running  *0[1]
+299   WindowServer 2.5  18:08.30 10    5    762   182M-  3224K- 21M    299  1    sleeping *0[1]
+199   hidd         2.4  02:32.92 5     3    267   2940K  0B     448K   199  1    sleeping *0[1]
+713   Backup and S 0.3  27:21.81 46    1    304   212M   0B     58M    713  1    sleeping *0[194]
+718   Google Chrom 0.2  00:47.24 11    1    120   20M+   0B     17M    480  480  sleeping *0[5]
+493   SystemUIServ 0.2  01:02.20 5     1    330   18M    16K    5460K  493  1    sleeping *0[408]
+480   Google Chrom 0.2  03:53.29 30    1    676   122M   0B     34M    480  1    sleeping *0[357]
+2972  Google Chrom 0.1  01:57.25 16    1    201+  58M+   0B     14M    480  480  sleeping *0[7]
+681   Google Chrom 0.1  01:11.84 9     1    120   36M    0B     19M    480  480  sleeping *0[1]
+680   Google Chrom 0.1  01:22.16 9     1    203   66M    8228K  34M    480  480  sleeping *0[1]
+497   pboard       0.0  00:00.70 2     1    117   2744K  0B     1860K  497  1    sleeping *0[1]
+489   Brave Browse 0.0  13:32.01 33    1    872   227M   0B     127M   489  1    sleeping *0[1985]
+3594  WhatsApp Hel 0.0  00:07.69 19    1    181   79M    0B     0B     3589 3589 sleeping *0[2]
+3015  Brave Browse 0.0  00:12.20 12    1    147   57M    0B     18M    489  489  sleeping *0[5]
+150   powerd       0.0  00:11.53 3     2    111   2128K  0B     768K   150  1    sleeping *0[1]
+141   fseventsd    0.0  00:37.07 8     1    259   5208K  0B     2164K  141  1    sleeping *0[1]
+
+Abduls-MacBook-Air:latihan abdulaziz$ clear
+Abduls-MacBook-Air:latihan abdulaziz$ help help
+help: help [-s] [pattern ...]
+    Display helpful information about builtin commands.  If PATTERN is
+    specified, gives detailed help on all commands matching PATTERN,
+    otherwise a list of the builtins is printed.  The -s option
+    restricts the output for each builtin command matching PATTERN to
+    a short usage synopsis.
+
+
+Abduls-MacBook-Air:latihan abdulaziz$ whatis clear
+clear(1)                 - clear the terminal screen
+XClearArea(3), XClearWindow(3) - clear area or window
+
+Abduls-MacBook-Air:latihan abdulaziz$ man man
+Abduls-MacBook-Air:latihan abdulaziz$ exit
+
+Abduls-MacBook-Air:latihan abdulaziz$ open /Applications/Visual\ Studio\ Code.app/
+Abduls-MacBook-Air:latihan abdulaziz$ ls -la ../ | pbcopy
+Abduls-MacBook-Air:latihan abdulaziz$ touch ~/hasil.txt
+Abduls-MacBook-Air:latihan abdulaziz$ pbpaste > ~/hasil.txt
+Abduls-MacBook-Air:latihan abdulaziz$ cat ~/hasil.txt 
+total 0
+drwxr-xr-x  4 abdulaziz  staff  128 Dec  2 04:53 .
+drwxr-xr-x  3 abdulaziz  staff   96 Dec  2 04:52 ..
+drwxr-xr-x  2 abdulaziz  staff   64 Dec  2 04:53 kasus
+drwxr-xr-x  5 abdulaziz  staff  160 Dec  2 11:25 latihan
+
+Abduls-MacBook-Air:latihan abdulaziz$ mdfind -onlyin ~/Documents/almaaidah/ ajwa
+/Users/abdulaziz/Documents/almaaidah/Kurma Ajwa Madinah
+/Users/abdulaziz/Documents/almaaidah/Kurma Ajwa Madinah.zip
+
+Abduls-MacBook-Air:latihan abdulaziz$ screencapture -T 10 -P image.png
