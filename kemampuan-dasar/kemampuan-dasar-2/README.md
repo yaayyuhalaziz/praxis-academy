@@ -1,0 +1,3 @@
+#Direktori yang digunakan
+
+##rhymes
