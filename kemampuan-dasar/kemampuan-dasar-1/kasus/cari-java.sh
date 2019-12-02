@@ -11,6 +11,6 @@ else
     dirjava=$(find $dir -type f -name "*.sh" -exec dirname {} \; | sort -u)
     if [[ `echo $dirjava | grep / | wc -l` -gt 0 ]]
     then
-        printf '%s\n' $dirjava | awk '{print "Ada file Java pada direktori",$0}'
+        printf '%s\n' $dirjava | awk '{print "Ada file Java pada direktori", $0}'
     fi
 fi
