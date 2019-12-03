@@ -4,7 +4,7 @@ Langkah-langkahnya adalah:
 
 1. Kompilasi file java.
 ```
-javac ../PenjumlahanMatriks.java
+javac ../kasus/PenjumlahanMatriks.java
 ```
 2. Membuat berkas Manifest.
 ```
