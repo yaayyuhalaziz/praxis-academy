@@ -1,5 +1,7 @@
-#Membuat *executable* JAR pada kasus **Penjumlahan Dua Buah Matriks**
-##Langkah-langkahnya adalah:
+Membuat *executable* JAR pada kasus **Penjumlahan Dua Buah Matriks**
+
+Langkah-langkahnya adalah:
+
 1. Kompilasi file java.
 ```
 javac ../PenjumlahanMatriks.java
