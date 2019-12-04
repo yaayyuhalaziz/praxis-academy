@@ -22,5 +22,5 @@ jar cfm PenjumlahanMatriks.jar Manifest.1.txt PenjumlahanMatriks.class
 ```
 5. Jalankan berkas *executable* JAR dengan perintah:
 ```
-java -jar PenjumlahanMatriks
+java -jar PenjumlahanMatriks.jar
 ```
