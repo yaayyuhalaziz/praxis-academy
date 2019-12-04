@@ -9,7 +9,7 @@ class BangunDatar {
 }
 
 interface VarPHI {
-    final float decPhi = 3.14;
+    final float decPhi = (float) 3.14;
 }
 
 class Persegi extends BangunDatar {
