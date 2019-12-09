@@ -1,0 +1,22 @@
+<?xml version = "1.0"?>
+<class_fullstack>
+   <student rollno = "01">
+      <nickname>Abaz</nickname>
+      <origin>Kudus</origin>
+   </student>
+   
+   <student rollno = "07">
+      <nickname>Dedi</nickname>
+      <origin>Purwakarta</origin>
+   </student>
+   
+   <student rollno = "08">
+      <nickname>Fickry</nickname>
+      <origin>Pontianak</origin>
+   </student>
+
+   <student rollno = "10">
+      <nickname>Mus</nickname>
+      <origin>Depok</origin>
+   </student>
+</class_fullstack>
