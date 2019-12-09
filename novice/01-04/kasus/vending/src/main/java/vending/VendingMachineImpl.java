@@ -130,8 +130,7 @@ public class VendingMachineImpl implements VendingMachine {
                     continue;
                    
                 }else{
-                    throw new NotSufficientChangeException("NotSufficientChange,
-                                       Please try another product");
+                    throw new NotSufficientChangeException("NotSufficientChange, Please try another product");
                 }
             }
         }
