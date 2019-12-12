@@ -1,7 +1,7 @@
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 /** 
- * @author evivehealth on 08/02/19. 
+ * @author evivehealth on 08/02/19.
  */
 // Java program depicting 
 // concurrent programming in action. 
