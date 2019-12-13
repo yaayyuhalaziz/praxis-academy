@@ -3,9 +3,6 @@
  */
 public class ShapeFactory {
     public Shape getShape(String strShapeType) {
-        if(strShapeType == null) {
-            return null;
-        }
         if(strShapeType.equalsIgnoreCase("Rectangle")) {
             return new Rectangle();
         } else if(strShapeType.equalsIgnoreCase("Square")) {
