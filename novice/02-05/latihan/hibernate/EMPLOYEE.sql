@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS EMPLOYEE (
+   inc TINYINT UNSIGNED NOT NULL auto_increment,
+   first_name VARCHAR(20) NOT NULL,
+   last_name VARCHAR(20) NOT NULL,
+   salary INT UNSIGNED NOT NULL,
+   PRIMARY KEY (inc)
+);
